@@ -27,7 +27,7 @@ scripts.path <- "G:/Statistics/R/Scripts/"
 
 
 cluster.list = unique(alldata$Cluster)
-# w=8
+w=8
 #     LOOP THROUGH CLUSTERS
 for (w in 1:length(cluster.list))
    {
@@ -50,7 +50,7 @@ for (w in 1:length(cluster.list))
     lse.vec = as.character()
 
 #### Loop through individual stations
-#  sta = 1
+ sta = 1
   for (sta in 1:length(station.list))
     {
     station = station.list[sta]
